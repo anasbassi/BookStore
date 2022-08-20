@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Roboto+Mono:wght@500;700&display=swap');
+
 * {
   font-family: monospace;
   padding: 0;
@@ -8,6 +10,7 @@
 body {
   background: #fafafa;
   padding: 4%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 hr {
@@ -96,6 +99,7 @@ nav {
   display: flex;
   flex-direction: column;
   width: 100%;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .info h4 {
