@@ -2,16 +2,14 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <header>
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Books</Link>
-        </li>
-        <li>
-          <Link to="/categories">Categories</Link>
-        </li>
-      </ul>
-    </nav>
+    <div className="nav-container">
+      <h1>Book Store</h1>
+      <nav>
+        <Link to="/">Books</Link>
+        <Link to="/categories">Categories</Link>
+      </nav>
+    </div>
+    <div className="avatar" />
   </header>
 );
 export default Navbar;

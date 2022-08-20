@@ -9,7 +9,9 @@ const Categories = () => {
   };
 
   return (
-    <button type="button" onClick={handleClick}>Check Status</button>
+    <div>
+      <button type="button" onClick={handleClick}>Check Status</button>
+    </div>
   );
 };
 

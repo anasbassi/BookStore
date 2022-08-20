@@ -28,10 +28,10 @@ const FormAdd = () => {
   return (
     <div id="addBook">
       <h2>Add new Book</h2>
-      <form onSubmit={handleClick}>
-        <input type="text" placeholder="Add Book" onChange={titleChange} required />
-        <input type="text" placeholder="Add Author" onChange={authorChange} required />
-        <button type="submit">Add Book</button>
+      <form className="add-form" onSubmit={handleClick}>
+        <input className="input-book" type="text" placeholder="Add Book" onChange={titleChange} required />
+        <input className="input-author" type="text" placeholder="Add Author" onChange={authorChange} required />
+        <button type="submit" className="primary-button">Add Book</button>
       </form>
     </div>
   );
